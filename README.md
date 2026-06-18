@@ -18,7 +18,7 @@ This Terraform module creates structured loadbalancer for digitalocean resources
 - Example:Basic
 ```hcl
 module "load-balancer" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-loadbalancer.git?ref=v1.0.0"
+  source      = "git::https://github.com/chahalvikas2022/terraform-digitalocean-loadbalancer.git"
   name        = local.name
   environment = local.environment
   region      = local.region
@@ -45,7 +45,7 @@ module "load-balancer" {
 - Example:complete
 ```hcl
 module "load-balancer" {
-  source      = "git::https://github.com/opsstation/terraform-digitalocean-loadbalancer.git?ref=v1.0.0"
+  source      = "git::https://github.com/chahalvikas2022/terraform-digitalocean-loadbalancer.git"
   name        = local.name
   environment = local.environment
   region      = local.region
@@ -103,21 +103,21 @@ Please ensure you specify the correct 'source' path for the module.
 - `environment`: The environment (e.g., "test", "production").
 - `region`: The DigitalOcean region where resources will be deployed.
 - `ip_range`: The IP range for the loadbalancer.
-- `managedby`:  ManagedBy, eg 'opsstation'.
+- `managedby`:  ManagedBy, eg 'vikas'.
 
 
 ## Module Outputs
 - This module currently does not provide any outputs.
 
 # Examples
-For detailed examples on how to use this module, please refer to the '[example](https://github.com/opsstation/terraform-digitalocean-loadbalancer/tree/master/_example)' directory within this repository.
+For detailed examples on how to use this module, please refer to the '[example](https://github.com/chahalvikas2022/terraform-digitalocean-loadbalancer/tree/master/_example)' directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/opsstation/terraform-digitalocean-loadbalancer/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/chahalvikas2022/terraform-digitalocean-loadbalancer/blob/master/LICENSE) file for details.
 
 
 
@@ -137,9 +137,9 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Modules
 
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/opsstation/terraform-digitalocean-labels.git | v1.0.0 |
+| Name | Source                                                                    | Version |
+|------|---------------------------------------------------------------------------|---------|
+| <a name="module_labels"></a> [labels](#module\_labels) | git::https://github.com/chahalvikas2022/terraform-digitalocean-labels.git | v1.0.0 |
 
 ## Resources
 
